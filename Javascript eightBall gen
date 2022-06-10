@@ -1,0 +1,38 @@
+let userName = 'Username';
+
+userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
+
+const userQuestion = 'what am I';
+
+console.log(`${userName} asked - "${userQuestion}".`);
+
+let randomNumber = Math.floor(Math.random() * 8);
+
+let eightBall = '';
+ switch(randomNumber) {
+  case 0:
+    eightBall = 'based';
+    break;
+  case 1:
+    eightBall = 'beta male';
+    break;
+  case 2:
+    eightBall = 'alpha male';
+    break;
+  case 3:
+    eightBall = 'sigma male';
+    break;
+  case 4:
+    eightBall = 'Omega male';
+    break;
+  case 5: 
+    eightBall = 'Unbased';
+    break;
+  case 6:
+    eightBall = 'Invalid opinion';
+    break;
+  case 7:
+    eightBall = 'Retarded';
+    break;
+}
+console.log(`Eight Ball says ${eightBall}.`)
